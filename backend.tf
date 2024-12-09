@@ -1,6 +1,6 @@
 terraform {
  backend "s3" {
-   bucket         = "upb-devops2024-terraform"
+   bucket         = "upb-devops2024-tf"
    key            = "global/s3/terraform.tfstate"
    region         = "us-east-1"
    dynamodb_table = "upb-devops2024-tfstate-locking"
